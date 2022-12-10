@@ -2,7 +2,7 @@
 
 # Shklyar Fyodor Igorevich
 
-![MyPhoto](MyPrettyPhoto.jpg)
+![MyPhoto](photos/MyPrettyPhoto.jpg)
 
 **Student**
 * **Telephone:** 8(029)763-47-15
