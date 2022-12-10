@@ -2,6 +2,8 @@
 
 # Shklyar Fyodor Igorevich
 
+![MyPhoto](MyPrettyPhoto.jpg)
+
 **Student**
 * **Telephone:** 8(029)763-47-15
 * **E-mail:** 30theflame05@gmail.com
