@@ -16,6 +16,11 @@ body {
     justify-content: space-between;
 }
 
+#profile-photo {
+    width: 400px;
+    height: 400px;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
