@@ -1,24 +1,50 @@
 html {
     scroll-behavior: smooth; 
+    background-color: rgba(255, 196, 138, 0.5);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     .section {
       width: 100%;
     }
 }
 
+header {
+    background-color: rgba(255, 196, 138, 1);
+}
+
 body {
     box-sizing: border-box;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.contacts-item {
+    list-style: none;
+    line-height: 1.5em;
+
+}
+
+.gh-link {
+    text-decoration: none;
+    color: #54412e;
 }
 
 #profile-photo {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: 3px solid rgba(255, 196, 138, 1);
 }
 
 .container {
@@ -32,10 +58,26 @@ body {
 }
   
 .section {
-    width: 50%;
+    /*border: 1px solid green;*/
+    width: calc(50% - 64px);
+    padding: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #54412e;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;  
+    text-transform: uppercase;
 }
   
 .nav-list {
+    /*border: 1px solid blue;*/
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -44,17 +86,24 @@ body {
 
 .nav-link {
     padding: 0 20px;
+    font-size: 20px;
     line-height: 50px;
     text-decoration: none;
+    color: #54412e;
 }
 
-.section-item a {
-    color: #829985;
-    text-decoration: none;  
-    transition: color 0.5s;
+footer {
+    background-color: rgba(255, 196, 138, 1);
+    padding: 10px;
+    margin-top: 20px;
 }
 
-.section-item a:hover {
-    color: #4d2323;
-    
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#rss-js-logo {
+    width: 121px;
+    height: 45px;
 }
