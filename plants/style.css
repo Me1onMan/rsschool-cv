@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 134px;
+    background-color: #EDF2EC;
+    padding-right: 110px;
+    padding-left: 110px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list {
+    box-sizing: border-box;
+    width: 452px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #010201;
+}
+
+.footer-content {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    margin: 40px 109px;
+}
+
+.footer-data {
+    box-sizing: border-box;
+    width: 182px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gh-link {
+    text-decoration: none;
+    color: #010201;
+}
+
+.rsschool-link {
+    text-decoration: none;
+    color: #010201;
+}
+
+.social-list{
+    box-sizing: border-box;
+    /*width: 188px;*/
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.social-item {
+    margin: 0 20px;
+}
