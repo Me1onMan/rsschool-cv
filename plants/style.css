@@ -1,5 +1,7 @@
 html {
     scroll-behavior: smooth;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 header {
@@ -97,17 +99,36 @@ main {
 }
 
 .services {
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 
-    flex-direction: column;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
     flex-wrap: wrap;
 }
 
 .service-item {
-    border: 1px solid gray;
+    /*border: 1px solid #717171;*/
+
     display: inline-block;
-    align-items: center;
+    /*align-items: center;*/
+    border-radius: 20px;
+    
+}
+
+.image {
+    border: 1px solid #000;
+}
+
+.service-description {
+    border: 1px solid #7d7fff;
+    border-radius: 0 0 20px 20px;
+    /*border-top: none;*/
+}
+
+.service-item p, .service-item h3 {
+    text-align: center;
 }
 
 .footer-content {
