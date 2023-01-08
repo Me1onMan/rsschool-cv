@@ -7,6 +7,8 @@ html {
 /*---header---*/
 
 header {
+    font-family: Inika;
+
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -51,9 +53,6 @@ main {
 }
 
 .section {
-    border: 1px solid blue;
-    flex-grow: 1;
-    
     box-sizing: border-box;
     display: flex;
     padding: 60px 110px;
@@ -104,15 +103,21 @@ main {
     flex-direction: column;
 }
 
+.container-services-buttons  .button{
+    margin: 0 19px 0 19px;
+}
+
 .services-content {
-    border: 3px solid red;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .services {
     /*border: 1px solid green;*/
-
+    margin-top: 90px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -124,16 +129,17 @@ main {
     display: inline-block;
     /*align-items: center;*/
     border-radius: 20px;
-    
+    margin-bottom: 55px;
 }
 
 .image {
-    border: 1px solid #000;
+    border-radius: 20px 20px 0 0;
 }
 
 .service-description {
-    border: 1px solid #7d7fff;
+    border: 1px solid #E3E1D5;
     border-radius: 0 0 20px 20px;
+    margin-top: -4px;
 }
 
 .service-item p, .service-item h3 {
@@ -143,15 +149,9 @@ main {
 /*---prices-section---*/
 
 .prices-wrapper {
-    border: 1px solid rgb(0, 171, 194);
-
     display: flex;
     justify-content: space-between;
     width: 100%;
-}
-
-.container .prices {
-    border: 1px solid red;
 }
 
 .prices-button-wrapper {
@@ -188,8 +188,6 @@ main {
 }
 
 .prices-wrapper .description-container {
-    border: 1px solid black;
-
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -197,13 +195,12 @@ main {
 }
 
 .container .call-us {
-    border: 1px solid green;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
-/*---prices-section---*/
+/*---contacts-section---*/
 
 #contacts {
     background-color: #EDF2EC;
@@ -212,19 +209,30 @@ main {
 }
 
 #contacts .container {
-    border: 1px solid #000;
-
     background: #EDF2EC url(/plants/assets/images/contacts-woman.png) no-repeat;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-start;
     /*align-items: flex-end;*/
     width: 100%;
-    height: 100%;
+    min-height: 497px;
+    padding-bottom: 0;
+}
+
+#contacts h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-wrapper {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .contacts-container {
     background-color: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     box-sizing: border-box;
     display: flex;
     align-items: center;
