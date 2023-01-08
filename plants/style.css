@@ -422,6 +422,23 @@ footer span, footer a {
     margin: 0 20px;
 }
 
+/*---active-elements---*/
+
+.nav-link:hover {
+    color: #e06733;
+    cursor: pointer;
+}
+
+.accordion-button:hover {
+    cursor: pointer;
+}
+
+#prices .button:hover, #service .button:hover, #welcome .button:hover {
+    cursor: pointer;
+    background-color: #e06733;
+    color: #ffffff;
+}
+
 /*---fonts---*/
 
 @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&display=swap');
