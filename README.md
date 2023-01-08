@@ -1,2 +1,1 @@
-* https://Me1onMan.github.io/rsschool-cv/cv
-* https://Me1onMan.github.io/rsschool-cv/
+https://me1onman.github.io/rsschool-cv/
