@@ -73,18 +73,22 @@
                 <section class="section" id="code">
                     <h2 class="section-title">Code</h2>
                     <p>
-                        <b>Codewars:</b> Every day you rent the car costs $40. If you rent the car for 7 or more days, you get $50 off your total. Alternatively, if you rent the car for 3 or more days, you get $20 off your total. Write a code that gives out the total amount for different days.
+                        <b>Codewars:</b> Given a lottery ticket (ticket), represented by an array of 2-value arrays, you must find out if you've won the jackpot.
                     </p>
                     <pre>
                     <code class="code">
-        int rental_car_cost(int days){
-            if(days >= 7) 
-            return 40 * days - 50;
-            else if (days >= 3)
-                return 40 * days - 20;
-            else
-                return 40 * days;
-        }
+                function bingo(ticket, win){
+                    let miniWins = 0;
+                
+                    for (let i = 0; i &lt; ticket.length; i++) {
+                      if(ticket[i][0].indexOf(String.fromCharCode(ticket[i][1])) !== -1) {
+                        miniWins++;
+                        if (miniWins &gt;= win) return 'Winner!';
+                      }
+                    }
+                  
+                    return 'Loser!';
+                  }
                     </code>
                     </pre>
                 </section>
@@ -93,7 +97,8 @@
                     <h2 class="section-title">Education</h2>
                     <ul class="education-list">
                         <li class="education-item">BSUIR (2020-2024)</li>
-                        <li class="education-item">RS Schools Course «JavaScript/Front-end» (in progress)</li>
+                        <li class="education-item">RS Schools Course «JavaScript/Front-end. Stage 0»</li>
+                        <li class="education-item">RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)</li>
                     </ul>
                 </section>
 

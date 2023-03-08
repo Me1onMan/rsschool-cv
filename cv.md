@@ -18,33 +18,38 @@ I am interested in learning new information. I get real pleasure from communicat
 
 ## Skills ##
 
-* С++, С#
+* С++, С# (Basic)
 * SQL
 * HTML, Markdown
+* CSS
+* JS
 * Git, GitHub
 * VS, VS Code
 
 ## Code example ##
 
-**Codewars:** Every day you rent the car costs $40. If you rent the car for 7 or more days, you get $50 off your total. Alternatively, if you rent the car for 3 or more days, you get $20 off your total.
-
-Write a code that gives out the total amount for different days.
+**Codewars:** Given a lottery ticket (ticket), represented by an array of 2-value arrays, you must find out if you've won the jackpot.
 
 ```
-    int rental_car_cost(int days){
-    if(days >= 7) 
-        return 40 * days - 50;
-    else if (days >= 3)
-        return 40 * days - 20;
-    else
-        return 40 * days;
+        function bingo(ticket, win){
+      let miniWins = 0;
+
+      for (let i = 0; i < ticket.length; i++) {
+        if(ticket[i][0].indexOf(String.fromCharCode(ticket[i][1])) !== -1) {
+          miniWins++;
+          if (miniWins >= win) return 'Winner!';
+        }
+      }
+    
+      return 'Loser!';
     }
 ```  
 
 ## Education ##
 
 * BSUIR (2020-2024)
-* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 0»
+* RS Schools Course «JavaScript/Front-end. Stage 1» (in process)
 
 ## Иностранные языки ##
 
