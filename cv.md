@@ -49,7 +49,7 @@ I am interested in learning new information. I get real pleasure from communicat
 - BSUIR (2020-2024)
 - RS Schools Course «JavaScript/Front-end. Stage 0»
 - RS Schools Course «JavaScript/Front-end. Stage 1» (aborted)
-- Modsen Internship (Ded 2023 – Mar 2024)
+- Modsen Internship (Dec 2023 – Mar 2024)
 - Self-studiyng
 
 ## Иностранные языки
