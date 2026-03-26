@@ -2,7 +2,7 @@
 
 ![MyPhoto](assets/images/ProfilePhotoSquare.jpg)
 
-**Student**
+**Front-end developer (React)**
 
 - **Telephone:** 8 (029) 763-47-15
 - **E-mail:** 30theflame05@gmail.com
@@ -11,9 +11,11 @@
 
 ## Briefly About Myself
 
-Since the beginning of my studying, I want to create useful and convinient products for users. Therefore, I am studying at BSUIR in a specialty involving the learning of UI and UX. I am also interested in psychological disciplines. They help me to improve the quality of my communication with people and to understand their desires.
+Front-end developer with confident knowledges of JS and React. I have experience of developing adaptive web-applications using API and data-bases. Also I have develop games on Unity (C#), C++ (console).
 
-I am interested in learning new information. I get real pleasure from communicating with people. I am able to accurately express my thoughts and argue my position. In communication, I show restraint, I don't raise my voice to the interlocutor, I try to understand the problem that has arisen and solve it.
+I like to dive into whole understanding of essence of application. So I can make my working process more intresting. My favorite part of development is working with API and solving algorithmic tasks.
+
+I'm searching a work, where I improve my developer skills and get practical experience of applications development.
 
 ## Skills
 
