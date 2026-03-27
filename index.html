@@ -104,7 +104,7 @@
           <code>
   function bingo(ticket, win) {
       let miniWins = 0;
-  
+
       for (let i = 0; i &lt; ticket.length; i++) {
         if(ticket[i][0].indexOf(
           String.fromCharCode(ticket[i][1])) !== -1) {
@@ -112,7 +112,7 @@
             if (miniWins &gt;= win) return 'Winner!';
         }
       }
-    
+
       return 'Loser!';
     }
                     </code>
