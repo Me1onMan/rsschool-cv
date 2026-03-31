@@ -1,0 +1,444 @@
+html {
+    scroll-behavior: smooth;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/*---header---*/
+
+header {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 134px;
+    background-color: #EDF2EC;
+    padding-right: 110px;
+    padding-left: 110px;
+}
+
+header span, header a {
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list {
+    box-sizing: border-box;
+    width: 452px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #010201;
+}
+
+/*---main---*/
+
+h1, h3, p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+h2 {
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #499A18;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+
+p {
+    color: #636060;
+}
+
+.green {
+    color: #499A18;
+}
+.orange {
+    color: #E06733;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 264px);
+}
+
+.container {
+    box-sizing: border-box;
+}
+
+.section {
+    box-sizing: border-box;
+    display: flex;
+    padding: 60px 110px;
+    justify-content: space-between;
+}
+
+.button {
+    font-family: 'Inika', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    background-color: #EDF2EC;
+    box-sizing: border-box;
+    border: 1px solid #e06733;
+    border-radius: 5px;
+    width: 162px;
+    height: 50px;
+}
+
+/*---welcome-section---*/
+
+#welcome {
+    background-color: #EDF2EC;
+}
+
+#welcome p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+#welcome button {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.description-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 550px;
+    height: 340px;
+}
+
+.button-learn-more {
+    box-sizing: border-box;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 14px 27px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*---about-section---*/
+
+#about p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#about .description-container {
+    order: -1;
+    width: 605px;
+    height: 350px;
+}
+
+/*---service-section---*/
+
+#service button {
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+}
+
+#service h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+}
+
+.service-item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+}
+
+#service {
+    background-color: #EDF2EC;
+    flex-direction: column;
+}
+
+.container-services-buttons  .button{
+    margin: 0 19px 0 19px;
+}
+
+.services-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.services {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    display: inline-block;
+    border-radius: 20px;
+    margin-bottom: 55px;
+}
+
+.image {
+    border-radius: 20px 20px 0 0;
+}
+
+.service-description {
+    border: 1px solid #E3E1D5;
+    border-radius: 0 0 20px 20px;
+    margin-top: -4px;
+}
+
+.service-item p, .service-item h3 {
+    text-align: center;
+}
+
+/*---prices-section---*/
+
+#prices h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+#prices p {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: #000000;
+}
+
+#prices .button {
+    background-color: #fff;
+}
+
+.price-item .name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.prices-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.prices-button-wrapper {
+    border: 1px solid #E3E1D5;
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 34px 41px;
+    border-radius: 20px;
+}
+
+.price-item {
+    background-color: #EDF2EC;
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 16px 40px;
+    margin: 16px 0;
+}
+
+.accordion-button {
+    background-color: #D9D9D9;
+
+    display: flex;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 54px;
+}
+
+.prices-wrapper .description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.container .call-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/*---contacts-section---*/
+
+.contacts-container .name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+}
+
+#contacts {
+    background-color: #EDF2EC;
+    padding-bottom: 0;
+    min-height: 550px;
+}
+
+#contacts .container {
+    background: #EDF2EC url(/plants/assets/images/contacts-woman.png) no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    /*align-items: flex-end;*/
+    width: 100%;
+    min-height: 497px;
+    padding-bottom: 0;
+}
+
+#contacts h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-wrapper {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contacts-container {
+    background-color: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    width: 450px;
+    height: 50px;
+}
+
+/*---footer---*/
+
+footer span, footer a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.footer-content {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    margin: 40px 109px;
+}
+
+.footer-data {
+    box-sizing: border-box;
+    width: 182px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gh-link {
+    text-decoration: none;
+    color: #010201;
+}
+
+.rsschool-link {
+    text-decoration: none;
+    color: #010201;
+}
+
+.social-list{
+    box-sizing: border-box;
+    /*width: 188px;*/
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.social-item {
+    margin: 0 20px;
+}
+
+/*---active-elements---*/
+
+.nav-link:hover {
+    color: #e06733;
+    cursor: pointer;
+}
+
+.accordion-button:hover {
+    cursor: pointer;
+}
+
+#prices .button:hover, #service .button:hover, #welcome .button:hover {
+    cursor: pointer;
+    background-color: #e06733;
+    color: #ffffff;
+}
+
+/*---fonts---*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&display=swap');
